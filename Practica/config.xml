@@ -21,6 +21,6 @@
         <author href="http://cenet.com" email="carlos@cenet.com">
         Luis Alvaro
         </author>
-        
+        <gap:plugin name="org.apache.cordova.file" />
         <gap:plugin name="org.apache.cordova.contacts" />
     </widget>
