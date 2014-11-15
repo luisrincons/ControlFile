@@ -68,7 +68,7 @@ function readAsText(file) {
 	reader.onloadend = function(evt){
 		$('#aGet').text(evt.target.result);
 	};
-	alert(reader.readAsText(file));
+	//alert(reader.readAsText(file)); undefined ejemplo
 }
 
 function fail(evt) {
