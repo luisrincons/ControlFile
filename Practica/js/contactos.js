@@ -40,7 +40,7 @@ function leidos(contacts) {
 	for (var i = 0; i < contacts.length; i++) {
 		//var tel = contacts[i].phoneNumbers[0].value;
 		var nombre = contacts[i].displayname || contacts[i].nickname;
-		$('#cMostrar').append('<li><a href="tel:00">'+tel+'</a></li>');
+		$('#cMostrar').append('<li><a href="tel:00">'+nombre+'</a></li>');
 	}
 }
 
