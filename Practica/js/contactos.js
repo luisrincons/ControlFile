@@ -37,9 +37,9 @@ function leidos(contacts) {
 	else
 		$('#cMostrar').html('<li>Sin Leer Contactos</li>');
 	for (var i = 0; i < contacts.length; i++) {
-		//var tel = contacts[i].phoneNumbers[0].value;
+		var tel = contacts[i].phoneNumbers[0].value;
 		var nombre = contacts[i].displayname || contacts[i].nickname;
-		$('#cMostrar').append('<li><a href="tel:00">'+nombre+'</a></li>');
+		$('#cMostrar').append('<li><a href="tel:00">'+tel+'</a></li>');
 	}
 }
 
